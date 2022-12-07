@@ -34,3 +34,7 @@ const showuser = () => {
 };
 
 showuser();
+const newUser =document.getElementById("getUser");
+newUser.addEventListener("click", () => {
+  showuser();
+});
