@@ -34,7 +34,3 @@ const showuser = () => {
 };
 
 showuser();
-const EmailButton =document.getElementById("getUser");
-EmailButton.addEventListener("click", () => {
-  showuser();
-});
